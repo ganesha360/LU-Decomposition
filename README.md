@@ -32,7 +32,6 @@ RegisterNumber: 22009090
 ```
 
 ## Output:
-![lu decomposition]()
 ![output](./Web%20capture_12-1-2023_124520_lms.ai.saveetha.ac.in.jpeg)
 ![output](./Web%20capture_12-1-2023_124552_lms.ai.saveetha.ac.in.jpeg)
 
