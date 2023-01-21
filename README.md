@@ -35,10 +35,6 @@ Program to find the LU Decomposition of a matrix.
 Developed by: Ganesh R
 RegisterNumber: 22009090
 */
-'''Program to solve a matrix using LU decomposition.
-Developed by: Ganesh R
-RegisterNumber: 22009090
-'''
 import numpy as np
 from scipy.linalg import lu_factor,lu_solve
 a=eval(input())
