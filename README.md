@@ -21,10 +21,6 @@ Program to find the L and U matrix.
 Developed by: Ganesh R
 RegisterNumber: 22009090
 */
-'''Program to find L and U matrix using LU decomposition.
-Developed by: Ganesh R
-RegisterNumber: 22009090
-'''
 import numpy as np
 from scipy.linalg import lu
 A = np.array(eval(input()))
@@ -39,16 +35,17 @@ Program to find the LU Decomposition of a matrix.
 Developed by: Ganesh R
 RegisterNumber: 22009090
 */
-'''Program to find L and U matrix using LU decomposition.
+'''Program to solve a matrix using LU decomposition.
 Developed by: Ganesh R
 RegisterNumber: 22009090
 '''
 import numpy as np
-from scipy.linalg import lu
-A = np.array(eval(input()))
-P,L,U=lu(A)
-print(L)
-print(U)
+from scipy.linalg import lu_factor,lu_solve
+a=eval(input())
+b=eval(input())
+lu,piv=lu_factor(a)
+x=lu_solve((lu,piv),b)
+print(x)
 ```
 
 ## Output:
